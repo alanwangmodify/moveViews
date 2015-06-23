@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MoveUIView.h
 //  moveViews
 //
 //  Created by apple on 15/6/23.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIGestureRecognizerDelegate>
+@interface MoveUIView : UIView<UIGestureRecognizerDelegate>
 
+@property (nonatomic,assign) BOOL enableMove;
 
 @end
-

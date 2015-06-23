@@ -7,21 +7,35 @@
 //
 
 #import "ViewController.h"
+#import "MoveUIView.h"
 
 @interface ViewController ()
-
+{
+    NSMutableArray *viewsArr ;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    viewsArr = [[NSMutableArray alloc] init];
+    
+    for (int i  = 0;i< 20; i++) {
+        MoveUIView *view = [[MoveUIView alloc] initWithFrame:CGRectMake(20, 20+i*5, 100, 100)];
+        view.backgroundColor = i%2==0 ?[UIColor yellowColor]:[UIColor blueColor];
+        [self.view addSubview:view];
+        [viewsArr addObject:view];
+    }
+
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
 }
 
 @end

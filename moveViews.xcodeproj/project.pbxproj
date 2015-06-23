@@ -14,6 +14,7 @@
 		18E5A2A41B39259E006FEF54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E5A2A31B39259E006FEF54 /* Images.xcassets */; };
 		18E5A2A71B39259E006FEF54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E5A2A51B39259E006FEF54 /* LaunchScreen.xib */; };
 		18E5A2B31B39259E006FEF54 /* moveViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A2B21B39259E006FEF54 /* moveViewsTests.m */; };
+		18E5A2C11B393999006FEF54 /* MoveUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5A2C01B393999006FEF54 /* MoveUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18E5A2AC1B39259E006FEF54 /* moveViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moveViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E5A2B11B39259E006FEF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E5A2B21B39259E006FEF54 /* moveViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moveViewsTests.m; sourceTree = "<group>"; };
+		18E5A2BF1B393999006FEF54 /* MoveUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveUIView.h; sourceTree = "<group>"; };
+		18E5A2C01B393999006FEF54 /* MoveUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18E5A29B1B39259E006FEF54 /* AppDelegate.m */,
 				18E5A29D1B39259E006FEF54 /* ViewController.h */,
 				18E5A29E1B39259E006FEF54 /* ViewController.m */,
+				18E5A2BF1B393999006FEF54 /* MoveUIView.h */,
+				18E5A2C01B393999006FEF54 /* MoveUIView.m */,
 				18E5A2A01B39259E006FEF54 /* Main.storyboard */,
 				18E5A2A31B39259E006FEF54 /* Images.xcassets */,
 				18E5A2A51B39259E006FEF54 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				18E5A29F1B39259E006FEF54 /* ViewController.m in Sources */,
 				18E5A29C1B39259E006FEF54 /* AppDelegate.m in Sources */,
 				18E5A2991B39259E006FEF54 /* main.m in Sources */,
+				18E5A2C11B393999006FEF54 /* MoveUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
